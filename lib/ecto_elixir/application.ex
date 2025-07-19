@@ -10,6 +10,7 @@ defmodule EctoElixir.Application do
     children = [
       # Starts a worker by calling: EctoElixir.Worker.start_link(arg)
       # {EctoElixir.Worker, arg}
+      EctoElixir.Repo
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
